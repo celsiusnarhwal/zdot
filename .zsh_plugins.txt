@@ -1,0 +1,25 @@
+marlonrichert/zsh-autocomplete
+
+ohmyzsh/ohmyzsh path:plugins/brew
+ohmyzsh/ohmyzsh path:plugins/git
+ohmyzsh/ohmyzsh path:plugins/asdf
+ohmyzsh/ohmyzsh path:plugins/direnv
+ohmyzsh/ohmyzsh path:plugins/pre-commit
+ohmyzsh/ohmyzsh path:plugins/gitignore
+ohmyzsh/ohmyzsh path:plugins/poetry-env
+ohmyzsh/ohmyzsh path:plugins/poetry kind:fpath
+ohmyzsh/ohmyzsh path:plugins/docker kind:fpath
+
+mattmc3/zshrc.d
+mattmc3/zfunctions
+paulirish/git-open
+hlissner/zsh-autopair
+ianthehenry/zsh-autoquoter
+zpm-zsh/clipboard
+
+zsh-users/zsh-completions
+zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-autosuggestions
+
+atuinsh/atuin
+romkatv/powerlevel10k

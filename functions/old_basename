@@ -1,0 +1,43 @@
+#!/bin/zsh
+##? TODO: Add description. Use ##? comments for funchelp docs.
+
+###
+### TODO: write your autoload function here.
+### WARNING: Do not add a 'function basename() {}' wrapper for autoloads.
+###
+
+# vim: ft=zsh sw=2 ts=2 et
+
+#!/usr/bin/env zsh
+
+script="
+import os
+import sys
+from pathlib import Path
+
+
+def basename(path):
+    path = Path(path).resolve()
+    root = Path('/')
+    volumes = root / 'Volumes'
+
+    if not path.exists():
+        sys.exit(f'Path {path} does not exist')
+
+    if path == root and not os.getenv('SSH_CONNECTION'):
+        return next(volumes.iterdir(), lambda x: (volumes / x).resolve() == path).name
+    else:
+        return path.name
+
+if (num_args := len(sys.argv)) > 2:
+    sys.exit(f'basename only takes one argument but recieved {num_args - 1}')
+else:
+    try:
+        directory = sys.argv[1]
+    except IndexError:
+        directory = Path.cwd()
+
+    print(basename(directory))
+"
+
+python -c $script "$@"

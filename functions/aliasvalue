@@ -1,0 +1,11 @@
+#!/bin/zsh
+##? TODO: Add description. Use ##? comments for funchelp docs.
+
+###
+### TODO: write your autoload function here.
+### WARNING: Do not add a 'function aliasvalue() {}' wrapper for autoloads.
+###
+
+# vim: ft=zsh sw=2 ts=2 et
+
+[[ -n "$1" ]] && echo $(alias "$1" | cut -d'=' -f2)
