@@ -1,10 +1,5 @@
 #!/bin/zsh
 
-###
-### TODO: write your autoload function here.
-### WARNING: Do not add a 'function nya() {}' wrapper for autoloads.
-###
-
 # vim: ft=zsh sw=2 ts=2 et
 
 [[ -x $(command -v rich) ]] && rich "$@" || cat "$@"
