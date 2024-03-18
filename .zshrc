@@ -17,4 +17,4 @@ source $ANTIDOTE_DIR/antidote.zsh
 unset ANTIDOTE_DIR
 antidote load
 
-[[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
+[[ ! -f "$ZDOTDIR/.p10k.zsh" ]] || source "$ZDOTDIR/.p10k.zsh"

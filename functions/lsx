@@ -3,9 +3,9 @@
 
 ###
 ### TODO: write your autoload function here.
-### WARNING: Do not add a 'function edit() {}' wrapper for autoloads.
+### WARNING: Do not add a 'function ls() {}' wrapper for autoloads.
 ###
 
 # vim: ft=zsh sw=2 ts=2 et
 
-"$EDITOR" "$@"
+[[ -x $(command -v colorls) ]] && colorls "$@" || ls "$@"
