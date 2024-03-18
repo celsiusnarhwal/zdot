@@ -9,6 +9,7 @@ fi
 zstyle ':antidote:bundle' use-friendly-names 'yes'
 zstyle ':completion:*' special-dirs true
 zstyle ':completion:*' list-colors 'di=1;38;2;171;104;255'
+zstyle ':autocomplete:*' min-input 0
 
 
 ANTIDOTE_DIR="$HOME/.antidote"
