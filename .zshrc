@@ -17,6 +17,4 @@ source $ANTIDOTE_DIR/antidote.zsh
 unset ANTIDOTE_DIR
 antidote load
 
-#zstyle ':completion:*' menu select
-
 [[ ! -f ~/.config/zsh/.p10k.zsh ]] || source ~/.config/zsh/.p10k.zsh
