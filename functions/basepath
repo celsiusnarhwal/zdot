@@ -1,14 +1,4 @@
 #!/bin/zsh
-##? TODO: Add description. Use ##? comments for funchelp docs.
-
-###
-### TODO: write your autoload function here.
-### WARNING: Do not add a 'function basepath() {}' wrapper for autoloads.
-###
-
-# vim: ft=zsh sw=2 ts=2 et
-
-# [ "$#" -eq 0 ] && set -- "$PWD"
 
 base=$(basename "$@" 2> /dev/null || basename "$@" "$PWD")
 
