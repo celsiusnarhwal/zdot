@@ -10,7 +10,6 @@ alias vars="$EDITOR $ZSH_CUSTOM/*vars.zsh"
 alias paths="$EDITOR $ZSH_CUSTOM/*path.zsh"
 alias it2vars="$EDITOR $ZSH_CUSTOM/*iterm2_variables.zsh"
 
-
 alias ls="colorls"
 alias up="cd .."
 alias reload="exec zsh"
