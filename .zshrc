@@ -5,17 +5,13 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-
 zstyle ':antidote:bundle' use-friendly-names 'yes'
 zstyle ':completion:*' special-dirs true
 zstyle ':completion:*' list-colors 'di=1;38;2;171;104;255'
 zstyle ':autocomplete:*' min-input 0
 
-
-ANTIDOTE_DIR="$HOME/.antidote"
 [ -d $ANTIDOTE_DIR ] || git clone --depth=1 https://github.com/mattmc3/antidote $ANTIDOTE_DIR
 source $ANTIDOTE_DIR/antidote.zsh
-unset ANTIDOTE_DIR
 antidote load
 
 [[ ! -f "$ZDOTDIR/.p10k.zsh" ]] || source "$ZDOTDIR/.p10k.zsh"

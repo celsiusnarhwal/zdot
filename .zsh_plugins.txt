@@ -10,8 +10,6 @@ ohmyzsh/ohmyzsh path:plugins/poetry-env
 ohmyzsh/ohmyzsh path:plugins/poetry kind:fpath
 ohmyzsh/ohmyzsh path:plugins/docker kind:fpath
 
-mattmc3/zshrc.d
-mattmc3/zfunctions
 paulirish/git-open
 hlissner/zsh-autopair
 ianthehenry/zsh-autoquoter
@@ -22,4 +20,8 @@ zsh-users/zsh-syntax-highlighting
 zsh-users/zsh-autosuggestions
 
 atuinsh/atuin
+
+mattmc3/zfunctions
+mattmc3/zshrc.d
+
 romkatv/powerlevel10k
