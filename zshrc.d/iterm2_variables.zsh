@@ -10,7 +10,7 @@ it2_basename() {
 	base=$(basename "$@" 2> /dev/null || basename "$@" "$PWD")
 
 	
-	if [[ "$(os darwin)" && "$base" == "/" ]] then
+	if [[ "${$(uname):l}" == "darwin" && "$base" == "/" ]] then
 		echo $(diskutil info / | awk -F': ' '/Volume Name/{gsub(/^ +| +$/,"",$2); print $2}')
 	else
 		echo "$base"

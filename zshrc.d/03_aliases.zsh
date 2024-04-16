@@ -24,7 +24,7 @@ alias python="python -q"
 alias py="python"
 alias eget="eget --to $HOME/.local/bin"
 
-if [[ "$(os darwin)" ]] then
+if [[ "${$(uname):l}" == "darwin" ]] then
 	alias spice="spicetify"
 	alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
 	alias keka="/Applications/Keka.app/Contents/MacOS/Keka --cli"
