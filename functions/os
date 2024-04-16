@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+# vim: ft=zsh sw=2 ts=2 et
+
+
+[[ "${$(uname):l}" == "${1:l}" ]]

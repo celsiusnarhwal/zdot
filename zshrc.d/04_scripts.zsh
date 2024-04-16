@@ -1,2 +1,0 @@
-setopt nonomatch
-setopt autocd
