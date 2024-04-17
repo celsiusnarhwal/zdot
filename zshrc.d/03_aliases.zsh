@@ -29,3 +29,7 @@ if [[ "${$(uname):l}" == "darwin" ]] then
 	alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
 	alias keka="/Applications/Keka.app/Contents/MacOS/Keka --cli"
 fi
+
+if [[ -x "lazydocker" ]] then
+	alias lzd="lazydocker"
+fi

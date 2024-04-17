@@ -1,4 +1,3 @@
-export LANG=C.UTF-8
 export XDG_CONFIG_HOME=$HOME/.config
 export ZDOTDIR=$XDG_CONFIG_HOME/zsh
 export ANTIDOTE_DIR=$HOME/.antidote
