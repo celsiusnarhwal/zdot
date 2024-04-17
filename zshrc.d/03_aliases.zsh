@@ -9,7 +9,7 @@ alias misc="$EDITOR $ZSH_CUSTOM/*misc.zsh"
 alias vars="$EDITOR $ZSH_CUSTOM/*vars.zsh"
 alias paths="$EDITOR $ZSH_CUSTOM/*path.zsh"
 alias it2vars="$EDITOR $ZSH_CUSTOM/*iterm2_variables.zsh"
-
+alias zlocal="$EDITOR $ZSH_CUSTOM/*local.zsh"
 alias cat="catx"
 alias ls="lsx"
 alias more="morex"
