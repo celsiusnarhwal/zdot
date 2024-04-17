@@ -30,6 +30,6 @@ if [[ "${$(uname):l}" == "darwin" ]] then
 	alias keka="/Applications/Keka.app/Contents/MacOS/Keka --cli"
 fi
 
-if [[ -x "lazydocker" ]] then
+if [[ -x $(which lazydocker) ]] then
 	alias lzd="lazydocker"
 fi
