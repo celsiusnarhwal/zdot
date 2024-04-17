@@ -73,5 +73,6 @@ zsdoc/data
 # End of https://www.toptal.com/developers/gitignore/api/macos,zsh
 
 .zsh_plugins.zsh
-/.zcompcache
-/.iterm2
+zshrc.d/99_local.zsh
+.zcompcache/
+.iterm2/
