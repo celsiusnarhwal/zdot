@@ -5,6 +5,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+compaudit | xargs chmod g-w
+
 zstyle ':antidote:bundle' use-friendly-names 'yes'
 zstyle ':completion:*' special-dirs true
 zstyle ':completion:*' list-colors 'di=1;38;2;171;104;255'
