@@ -15,7 +15,7 @@ alias ls="lsx"
 alias more="morex"
 
 alias up="cd .."
-alias reload="exec zsh"
+alias r="exec zsh"
 alias home="cd $HOME"
 alias root="cd /"
 alias img="imgcat"
