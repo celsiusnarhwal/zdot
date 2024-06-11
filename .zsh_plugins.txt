@@ -1,4 +1,8 @@
+#!/bin/sh
+
+# =====KEEP AT TOP=====
 marlonrichert/zsh-autocomplete
+# =====================
 
 ohmyzsh/ohmyzsh path:plugins/brew
 ohmyzsh/ohmyzsh path:plugins/git
@@ -18,9 +22,10 @@ zsh-users/zsh-completions
 zsh-users/zsh-syntax-highlighting
 zsh-users/zsh-autosuggestions
 
-atuinsh/atuin
-
 mattmc3/zfunctions
 mattmc3/zshrc.d
 
+# =====KEEP AT BOTTOM=====
+atuinsh/atuin
 romkatv/powerlevel10k
+# ========================
