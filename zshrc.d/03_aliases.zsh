@@ -19,6 +19,7 @@ alias la="ls -a"
 alias lla="ls -lha"
 
 alias up="cd .."
+alias rm="rm -i"
 alias reload="exec zsh"
 alias r="reload"
 alias home="cd $HOME"
