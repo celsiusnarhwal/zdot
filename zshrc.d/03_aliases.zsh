@@ -14,6 +14,10 @@ alias cat="catx"
 alias ls="lsx"
 alias more="morex"
 
+alias ll="ls -lh"
+alias la="ls -a"
+alias lla="ls -lha"
+
 alias up="cd .."
 alias reload="exec zsh"
 alias r="reload"
