@@ -6,7 +6,6 @@ ohmyzsh/ohmyzsh path:plugins/asdf
 ohmyzsh/ohmyzsh path:plugins/direnv
 ohmyzsh/ohmyzsh path:plugins/pre-commit
 ohmyzsh/ohmyzsh path:plugins/gitignore
-ohmyzsh/ohmyzsh path:plugins/common-aliases
 ohmyzsh/ohmyzsh path:plugins/poetry kind:fpath
 ohmyzsh/ohmyzsh path:plugins/docker kind:fpath
 
