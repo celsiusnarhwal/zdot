@@ -17,6 +17,7 @@ paulirish/git-open
 hlissner/zsh-autopair
 ianthehenry/zsh-autoquoter
 zpm-zsh/clipboard
+Tarrasch/zsh-autoenv
 
 zsh-users/zsh-completions
 zsh-users/zsh-syntax-highlighting
