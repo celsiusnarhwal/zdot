@@ -15,3 +15,6 @@ source $ANTIDOTE_DIR/antidote.zsh
 antidote load
 
 [[ ! -f "$ZDOTDIR/.p10k.zsh" ]] || source "$ZDOTDIR/.p10k.zsh"
+
+# bun completions
+[ -s "/Users/celsiusnarhwal/.bun/_bun" ] && source "/Users/celsiusnarhwal/.bun/_bun"

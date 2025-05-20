@@ -6,6 +6,7 @@ export GPG_TTY=$(tty)
 export DIRENV_LOG_FORMAT=""
 export JETBRAINS_PROJECT=$([ -d ".idea" ] && echo "$PWD")
 export BIN_DIR="$HOME/.local/bin"
+export PYTHONWARNINGS=ignore
 
 if [[ -f "$XDG_CONFIG_HOME/python/.pythonrc.py" ]] then
 	export PYTHONSTARTUP="$XDG_CONFIG_HOME/python/.pythonrc.py"
