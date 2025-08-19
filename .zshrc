@@ -1,6 +1,5 @@
 [ -d $ANTIDOTE_DIR ] || git clone --depth=1 https://github.com/mattmc3/antidote $ANTIDOTE_DIR
 source $ANTIDOTE_DIR/antidote.zsh
-antidote load
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zsh/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
@@ -8,6 +7,8 @@ antidote load
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
+
+antidote load
 
 zstyle ':antidote:bundle' use-friendly-names 'yes'
 zstyle ':completion:*' special-dirs true
